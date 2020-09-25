@@ -29,9 +29,8 @@
  
  Concept
  -------------
- I had to import 2 modules;nltk and pythainlp, in order to tokenize titles. Because nltk could only tokenize english langguage, so we had to design process separating english
- titles from thai titles. Now we've already known the titles tokenized by nltk will give a list of words which involve more than 10 length of lists approximately.We label
- titles that have length over 10 as 'Eng' ;otherwise, we feed them to next process. The rest of titles haven't label yet, we asume those are thai titles, then we used
+ I import 2 modules, nltk and pythainlp, in order to tokenize titles. Because nltk could only tokenize english language, so we had to design process separating english
+ titles from thai titles. Now we've already known the titles tokenized by nltk give a length of list which involve approximately more than 10.We label titles that have length over 10 as 'Eng' ;otherwise, we feed them to next process. The rest of titles haven't label yet, we asume those are thai titles, then we used
  pythainlp to tokenize them and label as 'TH'. Finally, we concat them together turning to single table and upload to main database.  
 
 Output
