@@ -39,7 +39,7 @@ Column of word tokenization after research titles. We scan keyword this column i
 
 Weakness point
 --------------
-It depend on engine that we use lead to some error.       
+It depends on engine that we use lead to some error.       
  
  
  
